@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=BankCard
+comment1.params=balance_amount\ card_id\ bank_account\ issuer_bank
+comment1.target=BankCard(int,\ int,\ java.lang.String,\ java.lang.String)
+comment1.text=Here\ we\ created\ an\ constructor\ named\ as\ Bankcard\r\n\ \ \ \ \ \ \ that\ initialized\ the\ class\ variables\ by\ using\r\nthe\ parameters\ values\ passed
+comment2.params=
+comment2.target=java.lang.String\ getbank_account()
+comment2.text=Here\ we\ are\ creating\ Getter\ method\ for\ the\ private\ variable\ to\ return\ a\ value.\r\n\ \ \ \ \ \ \ The\ sub\ classes\ are\ able\ to\ access\ the\ vlaues\ of\ the\ private\ attributes\ by\ \r\n\ \ \ \ \ \ \ a\ public\ getter\ method\r\n\ \ \ \ \ \ \ examples\ can\ be\ given\ as\ \:\r\n"getPIN_Number"
+comment3.params=
+comment3.target=int\ getcard_id()
+comment4.params=
+comment4.target=int\ getbalance_amount()
+comment5.params=
+comment5.target=java.lang.String\ getissuer_bank()
+comment6.params=
+comment6.target=java.lang.String\ getclient_name()
+comment7.params=client_name
+comment7.target=void\ setclient_name(java.lang.String)
+comment7.text=Here\ we\ are\ using\ setter\ method.\ This\ method\ help\ us\ by\ allowing\ \r\nother\ class\ to\ change\ the\ values\ of\ the\ private\ attributes
+comment8.params=balance_amount
+comment8.target=void\ setbalance_amount(int)
+comment9.params=
+comment9.target=void\ display()
+comment9.text=Here\ a\ public\ method\ is\ created\ which\ help\ us\ to\ pritn\ the\ values\ of\ the\ attributes\ \r\nonly\ if\ the\ client\ name\ is\ not\ empty\ else\ the\ method\ will\ display\ an\ error\ saying"No\ cliemt\ found
+numComments=10
